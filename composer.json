@@ -1,6 +1,7 @@
 {
     "name": "layman/aegis",
     "description": "A Laravel package for Aegis (key) functionality.",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Layman\\Aegis\\": "src/"
