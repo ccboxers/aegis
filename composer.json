@@ -1,0 +1,30 @@
+{
+    "name": "layman/aegis",
+    "description": "A Laravel package for Aegis (key) functionality.",
+    "autoload": {
+        "psr-4": {
+            "Layman\\Aegis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "layman"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-openssl": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Layman\\Aegis\\AegisServiceProvider"
+            ],
+            "aliases": {
+                "Aegis": "Layman\\Aegis\\Facades\\Aegis"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
